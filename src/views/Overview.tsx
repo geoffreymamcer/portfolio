@@ -1,5 +1,5 @@
 import React from "react";
-import { FileText, ArrowRight, MapPin, Calendar, Hash } from "lucide-react";
+import { ArrowRight, MapPin, Calendar, Hash } from "lucide-react";
 import { HERO_DATA, EDUCATION_DATA } from "../constants";
 
 const Overview: React.FC = () => {
