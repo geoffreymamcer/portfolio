@@ -22,49 +22,50 @@ export const EDUCATION_DATA = {
 };
 
 export const SKILL_METRICS: SkillData[] = [
-  { subject: "React/Next.js", A: 90, fullMark: 100 },
+  { subject: "React/Next.js", A: 85, fullMark: 100 },
   { subject: "Node/Express", A: 85, fullMark: 100 },
-  { subject: "Python/Pandas", A: 95, fullMark: 100 },
+  { subject: "Python/Pandas", A: 85, fullMark: 100 },
   { subject: "MongoDB/SQL", A: 80, fullMark: 100 },
   { subject: "Data Viz", A: 75, fullMark: 100 },
-  { subject: "Algorithms", A: 70, fullMark: 100 },
+  { subject: "C#", A: 70, fullMark: 100 },
 ];
 
 export const PROJECTS: Project[] = [
   {
     id: "1",
-    title: "E-Commerce Analytics Dashboard",
+    title: "Kanban",
     description:
-      "A comprehensive MERN stack application that visualizes sales data using Recharts. Includes a Python microservice for predictive analytics on inventory.",
-    tags: ["React", "Node.js", "MongoDB", "Python", "Pandas"],
+      "Kanban is a lightweight task management web app designed to help individuals and small teams organize work efficiently. It uses boards, lists, and cards to visualize tasks and track progress in a simple, distraction-free interface",
+    tags: ["React", "Node.js", "MongoDB"],
     category: "Fullstack",
     stats: [
-      { label: "Data Points", value: "10k+" },
-      { label: "Latency", value: "<50ms" },
+      { label: "Boards", value: "Multiple" },
+      { label: "Core Features", value: "CRUD Tasks" },
     ],
   },
   {
     id: "2",
-    title: "Crypto Sentiment Analyzer",
+    title:
+      "Candelaria Eye Care Clinic EMR System with Integrated Patient Portal",
     description:
-      "Data analysis pipeline that scrapes Twitter/X data, processes sentiment using NLTK/Pandas, and serves a live trend report via a React frontend.",
-    tags: ["Python", "Pandas", "FastAPI", "React", "Tailwind"],
-    category: "Data Science",
+      "A secure EMR system for Candelaria Eye Care Clinic with an integrated patient portal that allows patients to access medical records, take an AI-powered Ishihara color vision test, browse clinic products, view invoices, and book appointments.",
+    tags: ["React", "Node.js", "MongoDB"],
+    category: "Fullstack",
     stats: [
-      { label: "Accuracy", value: "87%" },
-      { label: "Sources", value: "3 APIs" },
+      { label: "Modules", value: "EMR + Portal" },
+      { label: "Security", value: "Role-Based" },
     ],
   },
   {
     id: "3",
-    title: "TaskFlow Neural",
+    title: "Data Analytics & Visualization",
     description:
-      "An intelligent task management system that suggests priority based on deadlines and task complexity using a custom weighted algorithm.",
-    tags: ["React", "Redux", "Express", "JWT"],
-    category: "Fullstack",
+      "A data analytics project involving exploratory data analysis, visualization, and basic predictive modeling on multiple datasets, including Palmer Penguins, Chicago crime rates, and UK road accidents, using Python data science libraries.",
+    tags: ["Python", "Pandas", "NumPy", "Matplotlib"],
+    category: "Data Science",
     stats: [
-      { label: "Users", value: "Demo" },
-      { label: "Components", value: "45+" },
+      { label: "Datasets", value: "4+" },
+      { label: "Techniques", value: "EDA & Prediction" },
     ],
   },
 ];

@@ -58,7 +58,9 @@ const Transmission: React.FC = () => {
                 </div>
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/mark-geoffrey-batocabe-69271727a"
+                target="_blank"
+                rel="noreferrer"
                 className="group p-6 border border-mono-700 bg-mono-900 hover:bg-white hover:text-black transition-all duration-300"
               >
                 <Linkedin className="w-6 h-6 mb-4" />
