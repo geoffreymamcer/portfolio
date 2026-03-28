@@ -42,7 +42,7 @@ export const PROJECTS: Project[] = [
       { label: "Boards", value: "Multiple" },
       { label: "Core Features", value: "CRUD Tasks" },
     ],
-    link: "https://github.com/geoffreymamcer/kanban",
+    link: "https://work-sphere-project.vercel.app/",
   },
   {
     id: "2",
