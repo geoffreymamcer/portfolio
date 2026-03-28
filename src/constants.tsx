@@ -42,6 +42,7 @@ export const PROJECTS: Project[] = [
       { label: "Boards", value: "Multiple" },
       { label: "Core Features", value: "CRUD Tasks" },
     ],
+    link: "https://github.com/geoffreymamcer/kanban",
   },
   {
     id: "2",
@@ -55,6 +56,7 @@ export const PROJECTS: Project[] = [
       { label: "Modules", value: "EMR + Portal" },
       { label: "Security", value: "Role-Based" },
     ],
+    link: "https://cecc-test.vercel.app/",
   },
   {
     id: "3",
@@ -67,6 +69,7 @@ export const PROJECTS: Project[] = [
       { label: "Datasets", value: "4+" },
       { label: "Techniques", value: "EDA & Prediction" },
     ],
+    link: "https://github.com/geoffreymamcer/ITELEC_Activities",
   },
 ];
 

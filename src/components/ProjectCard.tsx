@@ -60,13 +60,13 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
       <div className="px-6 py-4 border-t border-mono-800 bg-mono-900/30 flex justify-between items-center relative z-10">
         <div className="flex gap-4">
           <a
-            href="https://github.com/geoffreymamcer"
+            href={project.link}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-mono-400 hover:text-white transition-colors text-xs font-bold tracking-wider"
           >
             <Github size={14} />
-            SOURCE
+            Live Demo
           </a>
         </div>
         <div className="w-2 h-2 bg-mono-800 group-hover:bg-white transition-colors rounded-full"></div>
